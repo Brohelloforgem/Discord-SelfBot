@@ -1,11 +1,11 @@
 {
-    "token": "",
-    "password": "",
+    "token": os.getenv("token"),
+    "password": "gem",
     "prefix": "*",
     
-    "nitro_sniper": true, 
-    "giveaway_sniper": true,
+    "nitro_sniper": false, 
+    "giveaway_sniper": false,
 
-    "stream_url": "",
+    "stream_url": "https://twitch.tv/gemop",
     "tts_language": "en"
 }
